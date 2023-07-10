@@ -2,10 +2,10 @@ package ru.otus.java.basic.lesson3;
 
 public class MainApp {
     public static void main(String[] args) {
-        int min = 5;
-        int max = 17;
+        sumAndPrint(1, 1);
+    }
 
-        int result = min + (int)(Math.random() * (max - min + 1));
-        System.out.println(result);
+    public static void sumAndPrint(int a, int b) {
+        System.out.println(a + b);
     }
 }
