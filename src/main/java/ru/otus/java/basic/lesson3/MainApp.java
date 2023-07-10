@@ -6,6 +6,7 @@ public class MainApp {
     }
 
     public static void sumAndPrint(int a, int b) {
-        System.out.println(a + b);
+        int res = a + b;
+        System.out.println(res);
     }
 }
